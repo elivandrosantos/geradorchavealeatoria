@@ -57,10 +57,10 @@ WSGI_APPLICATION = "gerador.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('POSTGRES_DB'),
-        'USER': config('POSTGRES_USER'),
+        'NAME': config('POSTGRES_DB', 'postgres'),
+        'USER': config('POSTGRES_USER', 'postgres'),
         'PASSWORD': config('POSTGRES_PASSWORD'),
-        'HOST': config('DB_HOST'),
+        'HOST': config('DB_HOST', 'localhost'),
         'PORT': '7530',
     }
 }
