@@ -1,11 +1,11 @@
 from django.urls import path
 
-from . import views
-from .views import home
+from .views import home, generate_password
+
+app_name = 'core'
 
 urlpatterns = [
-    path('', views.generate_password, name='gerador'),
-    path('gerador/', views.generate_password, name='gerador'),
+    path('', generate_password, name='gerador'),
     path('gerador/', home, name='home'),
 ]
 
