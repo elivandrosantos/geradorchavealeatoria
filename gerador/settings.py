@@ -3,14 +3,14 @@ from decouple import config, Csv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# SECRET_KEY = config('SECRET_KEY')
-SECRET_KEY = 'FHy!+p[^L#P(xrN7tXSQl6$G*vch;E{&kMARj%nIVbD?@0Z2}T'
+SECRET_KEY = config('SECRET_KEY')
 
-# DEBUG = config('DEBUG', default=False, cast=bool)
-DEBUG = False
 
-# ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
-ALLOWED_HOSTS = ['*']
+DEBUG = config('DEBUG', default=False, cast=bool)
+# DEBUG = False
+
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default=[], cast=Csv())
+# ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     "django.contrib.admin",
