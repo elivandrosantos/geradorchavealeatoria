@@ -8,4 +8,5 @@ Recomendo o teste.
 
 Segue o link.
 
-https://geradorchavealeatoria.up.railway.app/
+https://ordnavile.pythonanywhere.com/
+
