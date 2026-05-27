@@ -1,9 +1,3 @@
-Com certeza\! O seu projeto é muito útil, especialmente para quem ainda usa "senha123" por aí. Um bom **README** no GitHub funciona como o "cartão de visitas" do seu código, ajudando tanto usuários quanto outros desenvolvedores a entenderem o valor do que você construiu.
-
-Aqui está uma sugestão de estrutura mais profissional e organizada, com seções claras e um visual limpo, tanto em **Português** quanto em **Inglês**.
-
------
-
 ## 🇧🇷 Versão em Português
 
 # Gerador de Chaves Aleatórias 🔐
@@ -87,11 +81,3 @@ Many users rely on weak passwords for daily registrations due to time constraint
     ```bash
     python manage.py runserver
     ```
-
------
-
-### **Dica de Ouro:**
-
-Como vi que você usa o **Railway** e o **PythonAnywhere**, adicionei as instruções básicas de execução. Se quiser deixar o README ainda mais bonito, você pode adicionar um print da tela inicial do site logo abaixo do título\!
-
-O que achou dessa nova estrutura? Se quiser mudar alguma seção específica ou adicionar as tecnologias de front-end que usou, é só avisar.
